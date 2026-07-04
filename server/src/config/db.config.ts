@@ -9,3 +9,5 @@ export const dbConfig: DbConfig = {
   uri: env.MONGODB_URI,
   dbName: env.MONGODB_DB_NAME,
 };
+
+//new db
