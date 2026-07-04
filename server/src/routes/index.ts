@@ -1,4 +1,5 @@
 import { Router } from 'express';
+import aadhaarRouter from './aadhaar.routes.js';
 import { authRouter } from './auth.routes.js';
 import { expertChatRouter } from '../chat/routes/expertChatRoutes.js';
 import { complaintRouter } from './complaint.routes.js';
@@ -25,6 +26,7 @@ import { whatsappRouter } from './whatsapp.routes.js';
 const apiRouter = Router();
 
 apiRouter.use('/auth', authRouter);
+apiRouter.use('/aadhaar', aadhaarRouter);
 apiRouter.use('/users', usersRouter);
 apiRouter.use('/farmer', farmerMarketplaceRouter);
 apiRouter.use('/marketplace', marketplaceRouter);

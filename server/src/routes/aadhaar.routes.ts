@@ -1,6 +1,6 @@
 import { Router } from 'express';
-import { checkAadhaar, sendOTP, verifyOTP } from '../controllers/aadhaar.controller';
-import { registerAadhaarUser } from '../controllers/aadhaar-register.controller';
+import { checkAadhaar, sendOTP, verifyOTP } from '../controllers/aadhaar.controller.js';
+import { registerAadhaarUser } from '../controllers/aadhaar-register.controller.js';
 
 const router = Router();
 
