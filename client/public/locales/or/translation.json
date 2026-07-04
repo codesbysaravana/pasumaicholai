@@ -1,0 +1,20 @@
+{
+    "brand": {
+        "title": "ପସୁମାଇ ଚୋଲାଇ"
+    },
+    "common": {
+        "loading": "ଲୋଡ୍ ହେଉଛି...",
+        "logout": "ଲଗ୍ ଆଉଟ୍",
+        "language": "ଭାଷା"
+    },
+    "nav": {
+        "marketplace": "ମାର୍କେଟପ୍ଲେସ୍",
+        "community": "କମ୍ୟୁନିଟି",
+        "schemes": "ଯୋଜନା",
+        "grievances": "ଅଭିଯୋଗ",
+        "expertChat": "ବିଶେଷଜ୍ଞ ଚାଟ୍",
+        "aiAssistant": "AI ସହାୟକ",
+        "login": "ଲଗଇନ୍",
+        "register": "ପଞ୍ଜିକରଣ"
+    }
+}

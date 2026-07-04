@@ -1,0 +1,24 @@
+{
+    "brand": {
+        "title": "పసుమై చోలై"
+    },
+    "common": {
+        "loading": "లోడ్ అవుతోంది...",
+        "logout": "లాగ్ అవుట్",
+        "language": "భాష"
+    },
+    "nav": {
+        "marketplace": "మార్కెట్",
+        "community": "కమ్యూనిటీ",
+        "schemes": "పథకాలు",
+        "grievances": "ఫిర్యాదులు",
+        "expertChat": "నిపుణుల చాట్",
+        "aiAssistant": "AI సహాయకుడు",
+        "login": "లాగిన్",
+        "register": "రిజిస్టర్"
+    },
+    "auth": {
+        "farmer": "రైతు",
+        "customer": "కస్టమర్"
+    }
+}

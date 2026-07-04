@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# Build Output
+dist/
+build/
+
+# Ignore all README files across the project
+README.md
+readme.md
+Readme.md
+
+# Except the root README.md
+!/README.md

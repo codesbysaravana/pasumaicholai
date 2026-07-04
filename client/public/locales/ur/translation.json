@@ -1,0 +1,20 @@
+{
+    "brand": {
+        "title": "پسومائی چولائی"
+    },
+    "common": {
+        "loading": "لوڈ ہو رہا ہے...",
+        "logout": "لاگ آؤٹ",
+        "language": "زبان"
+    },
+    "nav": {
+        "marketplace": "مارکیٹ پلیس",
+        "community": "کمیونٹی",
+        "schemes": "اسکیمیں",
+        "grievances": "شکایات",
+        "expertChat": "ماہر چیٹ",
+        "aiAssistant": "AI اسسٹنٹ",
+        "login": "لاگ ان",
+        "register": "رجسٹر"
+    }
+}

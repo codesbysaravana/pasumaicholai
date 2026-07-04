@@ -1,0 +1,20 @@
+{
+    "brand": {
+        "title": "PASUMAI CHOLAI"
+    },
+    "common": {
+        "loading": "Loading...",
+        "logout": "Logout",
+        "language": "Language"
+    },
+    "nav": {
+        "marketplace": "Marketplace",
+        "community": "Community",
+        "schemes": "Schemes",
+        "grievances": "Grievances",
+        "expertChat": "Expert Chat",
+        "aiAssistant": "AI Assistant",
+        "login": "Login",
+        "register": "Register"
+    }
+}

@@ -1,0 +1,272 @@
+{
+  "brand": {
+    "title": "PASUMAI CHOLAI"
+  },
+  "common": {
+    "loading": "Loading...",
+    "logout": "Logout",
+    "language": "Language",
+    "home": "Home",
+    "feed": "Feed",
+    "profile": "Profile",
+    "post": "Post",
+    "comment": "Comment",
+    "share": "Share",
+    "like": "Like",
+    "repost": "Repost"
+  },
+  "footer": {
+    "tagline": "Built for farmer-first digital growth. PASUMAI CHOLAI."
+  },
+  "nav": {
+    "marketplace": "Marketplace",
+    "community": "Community",
+    "schemes": "Schemes",
+    "grievances": "Grievances",
+    "expertChat": "Expert Chat",
+    "aiAssistant": "Uzhavar Thunai – Pasum AI",
+    "home": "Home",
+    "aboutUs": "About Us",
+    "ourStory": "Our Story",
+    "whatWeDeliver": "What We Deliver",
+    "contact": "Contact",
+    "login": "Login",
+    "register": "Register"
+  },
+  "landing": {
+    "heroQuotePart1": "\"Agriculture is a way of life,",
+    "heroQuotePart2": "not a profession.\"",
+    "philosophyTitle": "Our Philosophy",
+    "philosophyHeadlinePart1": "Grow to",
+    "philosophyHeadlinePart2": "Prosper.",
+    "storyTitle": "The Genesis",
+    "storyHeadlinePart1": "Our",
+    "storyHeadlinePart2": "Story.",
+    "harvestBadge": "The Season's Best",
+    "harvestTitlePart1": "Organic",
+    "harvestTitlePart2": "Harvest.",
+    "harvestDescription": "Sourced from local fields and delivered with the freshness of morning dew. No intermediaries. No compromise.",
+    "philosophyBody1": "<0>Pasumai Cholai is a one-step, farmer-friendly platform powered by</0> AI intelligence.",
+    "philosophyBody2": "<0>Empowering farmers</0> <1>to thrive, grow, and earn</1> fair profits <2>with multilingual support. It ensures</2> farmers can access help in their own language.",
+    "philosophyBody3": "We believe a nation truly develops when its <0>farmers, those who feed the world, do not suffer in poverty</0>. Every small step we take is towards strengthening the lives of those who feed the world.",
+    "storyBody1": "Pasumai Cholai was started to help those who <0>struggle to survive</0> and <1>earn fair profits</1>. We ask everyone: “When will our country become a <2>nation that supports its farmers</2>?” This happens when <3>farmers stop dying in poverty</3>. “It’s not just the <4>farmer’s poverty</4>, it’s the <5>nation’s poverty</5>.”",
+    "storyBody2": "According to NCRB reports, <0>753,425 people</0> have died in India and <1>15,500 in Tamil Nadu</1> between 2000–2026. We came here to stop this <2>tragedy</2>.",
+    "storyBody3": "We are young and passionate, committed to <0>strengthening the lives of farmers</0> and ensuring <1>fair opportunities</1>.",
+    "storyLabel": "When Fair Gets Justice.",
+    "tamilQuote": "<0>\"The only one truly great in the world is the one who</0> <1>plows, sows, harvests,</1> <2>and feeds</2> <3>the whole world.\"</3>",
+    "footerTitlePart1": "Saving the",
+    "footerTitlePart2": "Expert",
+    "footerTitlePart3": "who feeds the world.",
+    "badge": "Farmer First Digital Platform",
+    "heroTitle": "Modern agriculture ecosystem for farmers, experts, and buyers",
+    "primaryCta": "Get started",
+    "secondaryCta": "Explore market",
+    "headline": "Farmer-first ecosystem for market access, knowledge, support, and digital growth.",
+    "stats": {
+      "farmers": {
+        "title": "Active Farmers",
+        "value": "12K+"
+      },
+      "experts": {
+        "title": "Verified Experts",
+        "value": "350+"
+      },
+      "buyers": {
+        "title": "Trusted Buyers",
+        "value": "5K+"
+      }
+    },
+    "cards": {
+      "marketplace": {
+        "title": "Direct Crop Marketplace",
+        "body": "Farmers list produce and customers buy directly with transparent pricing.",
+        "cta": "Explore marketplace"
+      },
+      "community": {
+        "title": "Community and Schemes",
+        "body": "Share practical farming knowledge and track useful government initiatives.",
+        "cta": "Open community"
+      },
+      "support": {
+        "title": "Support Systems",
+        "body": "Use grievance workflows, expert chat, and AI guidance in one platform.",
+        "cta": "Try Uzhavar Thunai"
+      }
+    }
+  },
+  "auth": {
+    "login": "Login",
+    "signup": "Sign Up",
+    "email": "Email",
+    "password": "Password",
+    "fullName": "Full Name",
+    "role": "Role",
+    "farmer": "Farmer",
+    "FARMER": "Farmer",
+    "customer": "Customer",
+    "consumer": "Consumer",
+    "CONSUMER": "Consumer",
+    "admin": "Admin",
+    "ADMIN": "Admin",
+    "taluk_admin": "Taluk Admin",
+    "TALUK_ADMIN": "Taluk Admin",
+    "expert": "Expert",
+    "EXPERT": "Expert",
+    "delivery": "Delivery",
+    "DELIVERY": "Delivery",
+    "loggingIn": "Logging in...",
+    "registering": "Registering...",
+    "notifications": {
+      "loginSuccess": "Login successful.",
+      "registerSuccess": "Registration successful."
+    }
+  },
+  "dashboard": {
+    "title": "Farmer Dashboard",
+    "accessTitle": "Dashboard Access",
+    "accessBody": "Please login to access your dashboard.",
+    "goLogin": "Go to login",
+    "loggedInAs": "Logged in as",
+    "marketCardTitle": "Marketplace",
+    "marketCardBody": "Manage your listings and track crop demand.",
+    "marketCardCta": "Open marketplace",
+    "communityCardTitle": "Community",
+    "communityCardBody": "Post updates and learn from farmers and buyers.",
+    "communityCardCta": "Open community",
+    "widgets": {
+      "cropInsights": "Crop insights",
+      "cropInsightsBody": "Yield trend looks healthy for the next cycle.",
+      "weatherUpdates": "Weather updates",
+      "weatherBody": "Light rain expected in the next 48 hours.",
+      "marketPrices": "Market prices",
+      "marketBody": "Average paddy price improved from last week.",
+      "notifications": "Notifications",
+      "notificationsBody": "Pending actions and support updates are available."
+    }
+  },
+  "features": {
+    "cropAdvice": "Crop advice",
+    "chatWithExpert": "Chat with expert",
+    "marketPrices": "Market prices",
+    "weatherUpdates": "Weather updates"
+  },
+  "marketplace": {
+    "title": "Marketplace",
+    "subtitle": "Browse verified crop listings from farmers.",
+    "viewDetails": "View details",
+    "notFound": "Product not found",
+    "backToMarketplace": "Back to marketplace",
+    "crop": "Crop",
+    "price": "Price",
+    "quantity": "Quantity",
+    "location": "Location",
+    "addListingTitle": "Add Crop Listing",
+    "myListings": "My Listings",
+    "noListings": "No listings created yet.",
+    "searchPlaceholder": "Search by crop, product, or location",
+    "noResults": "No listings match your filters.",
+    "sort": {
+      "price": "Sort by price",
+      "quantity": "Sort by quantity"
+    },
+    "form": {
+      "productName": "Product Name",
+      "cropType": "Crop Type",
+      "pricePerKg": "Price Per Kg",
+      "quantity": "Quantity (Kg)",
+      "location": "Location",
+      "description": "Description",
+      "create": "Create Listing"
+    },
+    "notifications": {
+      "created": "Product listing created.",
+      "loginFarmer": "Please login as a farmer to add listings."
+    }
+  },
+  "community": {
+    "title": "Community Blog",
+    "subtitle": "Learn from farmer stories, practical methods, and expert-supported answers.",
+    "createPost": "Create post",
+    "createTitle": "Create Blog Post",
+    "by": "By",
+    "upvotes": "Upvotes",
+    "readMore": "Read more",
+    "upvote": "Upvote",
+    "backToCommunity": "Back to community",
+    "notFound": "Blog not found",
+    "form": {
+      "title": "Title",
+      "content": "Content",
+      "publish": "Publish"
+    },
+    "notifications": {
+      "created": "Blog post created.",
+      "upvoted": "Thanks for upvoting this post."
+    },
+    "tags": {
+      "farming": "Farming",
+      "soil": "Soil health",
+      "market": "Market trends"
+    }
+  },
+  "schemes": {
+    "title": "Government Schemes",
+    "upvotes": "Upvotes",
+    "upvote": "Upvote",
+    "viewDetails": "View details",
+    "notFound": "Scheme not found",
+    "backToSchemes": "Back to schemes",
+    "eligibility": "Eligibility",
+    "communityUpvotes": "Community Upvotes",
+    "notifications": {
+      "upvoted": "Scheme upvoted."
+    }
+  },
+  "grievance": {
+    "submitTitle": "Submit Grievance",
+    "trackTitle": "Track Grievance",
+    "trackingId": "Tracking ID",
+    "form": {
+      "title": "Title",
+      "category": "Category",
+      "description": "Description",
+      "submit": "Submit"
+    },
+    "timeline": {
+      "submitted": "Submitted",
+      "assigned": "Assigned to department",
+      "review": "Under review",
+      "resolution": "Resolution"
+    },
+    "status": {
+      "completed": "Completed",
+      "active": "Active",
+      "pending": "Pending"
+    },
+    "notifications": {
+      "submitted": "Grievance submitted successfully. Tracking ID: GRV-001"
+    }
+  },
+  "chat": {
+    "title": "Expert Consultation Chat",
+    "subtitle": "Connect with agricultural experts for issue-specific guidance.",
+    "expertConnected": "A verified crop expert is available now.",
+    "messageLabel": "Message",
+    "placeholder": "I need advice for pest control...",
+    "voice": "Voice",
+    "send": "Send Message",
+    "note": "Realtime socket integration will be initialized later."
+  },
+  "ai": {
+    "title": "Uzhavar Thunai – Pasum AI",
+    "subtitle": "Ask crop planning, weather adaptation, and soil health questions.",
+    "floatingCta": "Open Uzhavar Thunai",
+    "samplePrompt": "AI Tip: Based on weather, shift irrigation to early morning.",
+    "sampleAnswer": "Great, suggest nutrient mix for paddy this week.",
+    "inputLabel": "Type your question",
+    "placeholder": "How to improve paddy yield?",
+    "voice": "Voice",
+    "send": "Send",
+    "note": "Backend AI integration will be connected later."
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "brand": {
+        "title": "પસુમાઈ ચોલાઈ"
+    },
+    "common": {
+        "loading": "લોડ થઈ رہا છે...",
+        "logout": "લોગ આઉટ",
+        "language": "ભાષા"
+    },
+    "nav": {
+        "marketplace": "માર્કેટપ્લેસ",
+        "community": "સમુદાય",
+        "schemes": "યોજનાઓ",
+        "grievances": "ફરિયાદો",
+        "expertChat": "નિષ્ણાત ચેટ",
+        "aiAssistant": "AI સહાયક",
+        "login": "લોગિન",
+        "register": "નોંધણી"
+    }
+}

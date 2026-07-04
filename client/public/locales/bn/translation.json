@@ -1,0 +1,20 @@
+{
+    "brand": {
+        "title": "পসুমাই চোলাই"
+    },
+    "common": {
+        "loading": "লোড হচ্ছে...",
+        "logout": "লগ আউট",
+        "language": "ভাষা"
+    },
+    "nav": {
+        "marketplace": "মার্কেটপ্লেস",
+        "community": "কমিউনিটি",
+        "schemes": "প্রকল্প",
+        "grievances": "অভিযোগ",
+        "expertChat": "বিশেষজ্ঞ চ্যাট",
+        "aiAssistant": "AI অ্যাসিস্ট্যান্ট",
+        "login": "লগইন",
+        "register": "নিবন্ধন"
+    }
+}

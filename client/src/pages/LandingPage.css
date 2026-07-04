@@ -1,0 +1,303 @@
+.landing-page {
+    --green-main: #083824;
+    --green-accent: #12805a;
+    --text-white: #ffffff;
+    --text-grey: #f4f4f4;
+}
+
+.landing-page .navbar {
+    background-color: var(--green-main);
+    padding: 1rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.landing-page .navbar-brand {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.landing-page .nav-links {
+    display: flex;
+    gap: 1.8rem;
+}
+
+.landing-page .nav-link {
+    color: #e7f6ef;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.landing-page .nav-link:hover {
+    color: #fff;
+}
+
+.landing-page .nav-actions {
+    display: flex;
+    gap: 1rem;
+}
+
+.landing-page .btn-signup {
+    background: white;
+    color: var(--green-main);
+    padding: 0.5rem 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.landing-page .btn-login {
+    background: var(--green-accent);
+    color: white;
+    padding: 0.5rem 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.home-section {
+    height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.home-content h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}
+
+.cta-container {
+    display: flex;
+    gap: 0.5rem;
+    max-width: 500px;
+    margin: 2rem auto;
+}
+
+.cta-container input {
+    flex: 1;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-get-started {
+    background-color: var(--green-accent);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.about-section {
+    padding: 5rem 10%;
+    background-color: white;
+}
+
+.about-section .row {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+}
+
+.about-section .col-img,
+.about-section .col-text {
+    flex: 1;
+}
+
+.about-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.about-section p {
+    line-height: 1.8;
+    color: #555;
+    text-align: justify;
+}
+
+.product-section {
+    padding: 5rem 10%;
+    background-color: #f9f9f9;
+}
+
+.section-title {
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.product-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.product-info {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.product-info h5 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.btn-add {
+    background-color: var(--green-accent);
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-section {
+    padding: 5rem 10%;
+    background-color: white;
+}
+
+.contact-section .row {
+    display: flex;
+    gap: 4rem;
+}
+
+.contact-section h1 {
+    margin-bottom: 1.5rem;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact-section .form-control {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.btn-send {
+    background-color: var(--green-accent);
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer {
+    background-color: var(--green-main);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+@media (max-width: 768px) {
+
+    .about-section .row,
+    .contact-section .row {
+        flex-direction: column;
+    }
+}
+
+/* Custom Login Styles */
+.auth-page-custom {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    position: relative;
+    background: url('/assets/bh.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 1.2rem;
+    z-index: 0;
+}
+
+.auth-background-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.auth-page-custom .auth-panel {
+    position: relative;
+    z-index: 2;
+    width: min(420px, 100%);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    padding: 40px;
+    color: white;
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+}
+
+.auth-page-custom .auth-panel h1 {
+    color: white;
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.auth-page-custom .input {
+    background: rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    color: white !important;
+    border-radius: 10px !important;
+}
+
+.auth-page-custom .input option {
+    background: #083824;
+    color: white;
+}
+
+.auth-page-custom .field-label {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 600;
+}
+
+.auth-page-custom .btn-primary {
+    background: var(--green-accent);
+    margin-top: 10px;
+    height: 50px;
+    border-radius: 10px;
+}

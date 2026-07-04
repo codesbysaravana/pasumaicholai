@@ -1,0 +1,20 @@
+{
+    "brand": {
+        "title": "पसुमाई चोलाई"
+    },
+    "common": {
+        "loading": "लोड होत आहे...",
+        "logout": "लॉग आउट",
+        "language": "भाषा"
+    },
+    "nav": {
+        "marketplace": "मार्केटप्लेस",
+        "community": "समुदाय",
+        "schemes": "योजना",
+        "grievances": "तक्रारी",
+        "expertChat": "तज्ज्ञ चॅट",
+        "aiAssistant": "AI सहाय्यक",
+        "login": "लॉगिन",
+        "register": "नोंदणी"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "brand": {
+        "title": "ಪಸುಮೈ ಚೋಲೈ"
+    },
+    "common": {
+        "loading": "ಲೋಡ್ ಆಗುತ್ತಿದೆ...",
+        "logout": "ಲಾಗ್ ಔಟ್",
+        "language": "ಭಾಷೆ"
+    },
+    "nav": {
+        "marketplace": "ಮಾರುಕಟ್ಟೆ",
+        "community": "ಸಮುದಾಯ",
+        "schemes": "ಯೋಜನೆಗಳು",
+        "grievances": "ದೂರುಗಳು",
+        "expertChat": "ತಜ್ಞರ ಚಾಟ್",
+        "aiAssistant": "AI ಸಹಾಯಕ",
+        "login": "ಲಾಗಿನ್",
+        "register": "ನೋಂದಾಯಿಸಿ"
+    },
+    "auth": {
+        "farmer": "ರೈತ",
+        "customer": "ಗ್ರಾಹಕ"
+    }
+}

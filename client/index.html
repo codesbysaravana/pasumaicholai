@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@300..700&display=swap"
+    rel="stylesheet">
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <style type="text/tailwindcss">
+    @theme {
+        --font-sans: "Outfit", sans-serif;
+        --font-serif: "Instrument Serif", serif;
+        --font-space: "Space Grotesk", sans-serif;
+        --color-primary-green: #022c22;
+        --color-accent-green: #22c55e;
+        --color-deep-forest: #011913;
+        --color-white-translucent: rgba(255, 255, 255, 0.1);
+      }
+    </style>
+  <style>
+    /* Hide the default Google Translate top bar and widget */
+    .skiptranslate {
+      display: none !important;
+    }
+
+    body {
+      top: 0 !important;
+    }
+
+    #google_translate_element {
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Google Translate widget kept hidden but available for optional user-content translation -->
+  <div id="google_translate_element"></div>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>
