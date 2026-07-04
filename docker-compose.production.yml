@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  server:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    container_name: pasumaicholai-server
+    restart: unless-stopped
+    ports:
+      # Map host port 5001 to container port 5000 to avoid conflicting with MicroOps
+      - "127.0.0.1:5001:5000"
+    env_file:
+      - ./server/.env
+    networks:
+      - pasumaicholai-net
+    volumes:
+      - pasumaicholai-uploads:/app/uploads
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+networks:
+  pasumaicholai-net:
+    name: pasumaicholai-net
+    driver: bridge
+
+volumes:
+  pasumaicholai-uploads:
+    name: pasumaicholai-uploads

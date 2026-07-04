@@ -1,0 +1,44 @@
+name: Deploy to AWS EC2
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Deploy to EC2
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.EC2_HOST }}
+          username: ${{ secrets.EC2_USERNAME }}
+          key: ${{ secrets.EC2_SSH_KEY }}
+          script: |
+            echo "Starting deployment for PasumaiCholai..."
+            
+            # Navigate to project directory (assuming it's cloned here)
+            # If it doesn't exist, this will fail. Ensure initial clone is done manually.
+            cd /var/www/pasumaicholai
+            
+            echo "Pulling latest code from main branch..."
+            git checkout main
+            git pull origin main
+            
+            echo "Building Frontend..."
+            cd client
+            npm ci
+            npm run build
+            cd ..
+            
+            echo "Building and restarting backend Docker containers..."
+            # Only affects pasumaicholai-server because of the specific docker-compose file
+            docker-compose -f docker-compose.production.yml up -d --build
+            
+            echo "Cleaning up dangling Docker images to save space..."
+            docker image prune -f
+            
+            echo "Deployment successful!"
