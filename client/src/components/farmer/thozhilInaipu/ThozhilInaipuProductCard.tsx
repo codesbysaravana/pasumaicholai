@@ -44,3 +44,6 @@ export function ThozhilInaipuProductCard({ product }: ThozhilInaipuProductCardPr
     </article>
   );
 }
+
+
+//for pushing
