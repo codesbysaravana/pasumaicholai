@@ -36,7 +36,7 @@ jobs:
             
             echo "Building and restarting backend Docker containers..."
             # Only affects pasumaicholai-server because of the specific docker-compose file
-            docker-compose -f docker-compose.production.yml up -d --build
+            docker compose -f docker-compose.production.yml up -d --build
             
             echo "Cleaning up dangling Docker images to save space..."
             docker image prune -f
