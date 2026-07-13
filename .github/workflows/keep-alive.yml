@@ -1,0 +1,23 @@
+name: Keep Render Apps Alive
+
+on:
+  schedule:
+    # Runs every 14 minutes to prevent Render's 15-minute inactivity spin down
+    - cron: '*/14 * * * *'
+  workflow_dispatch: # Allows manual triggering from the GitHub Actions UI
+
+jobs:
+  ping-services:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Node Server
+        run: |
+          echo "Pinging Node Backend..."
+          curl -s https://pasumaicholai-server-nnuf.onrender.com > /dev/null
+          echo "Node Backend Pinged successfully."
+          
+      - name: Ping FastAPI Server
+        run: |
+          echo "Pinging FastAPI Backend..."
+          curl -s https://pasumaicholai-ai-service.onrender.com > /dev/null
+          echo "FastAPI Backend Pinged successfully."
