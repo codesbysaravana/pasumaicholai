@@ -19,9 +19,9 @@ export async function getExperts(): Promise<ExpertProfile[]> {
     id: String(expert._id),
     name: expert.fullName,
     email: expert.email,
-    specialization: expert.specialization ?? 'Agriculture Expert',
-    phone: expert.phone ?? null,
-    status: (expert.status as 'active' | 'busy' | 'offline' | undefined) ?? 'active',
+    specialization: (expert as any).specialization ?? 'Agriculture Expert',
+    phone: (expert as any).phone ?? null,
+    status: ((expert as any).status as 'active' | 'busy' | 'offline' | undefined) ?? 'active',
   }));
 }
 
@@ -37,8 +37,8 @@ export async function getExpertById(expertId: string): Promise<ExpertProfile | n
     id: String(expert._id),
     name: expert.fullName,
     email: expert.email,
-    specialization: expert.specialization ?? 'Agriculture Expert',
-    phone: expert.phone ?? null,
-    status: (expert.status as 'active' | 'busy' | 'offline' | undefined) ?? 'active',
+    specialization: (expert as any).specialization ?? 'Agriculture Expert',
+    phone: (expert as any).phone ?? null,
+    status: ((expert as any).status as 'active' | 'busy' | 'offline' | undefined) ?? 'active',
   };
 }

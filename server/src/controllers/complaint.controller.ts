@@ -471,13 +471,12 @@ export const updateComplaintStatus = asyncHandler(async (req: Request, res: Resp
     throw new ApiError(400, body.error.issues[0]?.message ?? 'Invalid complaint status payload');
   }
 
-  const complaint = await ComplaintModel.findOneAndUpdate(
-    { _id: params.data.id, talukAdminId: req.user.id },
-    { status: body.data.status },
-    { new: true },
-  ).lean();
+  const existing = await ComplaintModel.findOne({
+    _id: params.data.id,
+    talukAdminId: req.user.id,
+  });
 
-  if (!complaint) {
+  if (!existing) {
     throw new ApiError(404, 'Complaint not found');
   }
 

@@ -110,7 +110,7 @@ async function resolveInventorySource(rawId: string): Promise<InventorySource | 
     imageUrl: '',
     createdAt: product.createdAt,
     farmerName: seller?.fullName ?? 'Farmer',
-    farmerPhone: resolved.farmerPhone || resolved.farmerMobile || '',
+    farmerPhone: (seller as any)?.phone || (seller as any)?.mobile || '',
   };
 }
 
@@ -147,7 +147,7 @@ export const getMarketplaceProducts = asyncHandler(async (req: Request, res: Res
     ];
   }
 
-  const listingSort =
+  const listingSort: Record<string, 1 | -1> =
     sort === 'price_asc'
       ? { pricePerKg: 1 as const }
       : sort === 'price_desc'

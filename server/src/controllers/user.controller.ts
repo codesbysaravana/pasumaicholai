@@ -14,8 +14,8 @@ export const getUsers = asyncHandler(async (_req: Request, res: Response) => {
       email: user.email,
       role: user.role,
       mobile: (user as any).mobile || (user as any).phone || null,
-      specialization: user.specialization ?? null,
-      status: user.status ?? 'active',
+      specialization: (user as any).specialization ?? null,
+      status: (user as any).status ?? 'active',
       talukName: user.talukName ?? null,
     })),
   });
@@ -35,8 +35,8 @@ export const getUserById = asyncHandler(async (req: Request, res: Response) => {
       email: user.email,
       role: user.role,
       mobile: (user as any).mobile || (user as any).phone || null,
-      specialization: user.specialization ?? null,
-      status: user.status ?? 'active',
+      specialization: (user as any).specialization ?? null,
+      status: (user as any).status ?? 'active',
       talukName: user.talukName ?? null,
     },
   });

@@ -142,7 +142,7 @@ export const getListings = asyncHandler(async (req: Request, res: Response) => {
     };
   }
 
-  const sort =
+  const sort: Record<string, 1 | -1> =
     query.sort === 'price_asc'
       ? { pricePerKg: 1 as const }
       : query.sort === 'price_desc'
