@@ -8,7 +8,6 @@ services:
     container_name: pasumaicholai-server
     restart: unless-stopped
     ports:
-      # Map host port 5001 to container port 5000 to avoid conflicting with MicroOps
       - "127.0.0.1:5001:5000"
     env_file:
       - ./server/.env

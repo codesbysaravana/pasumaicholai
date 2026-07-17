@@ -34,3 +34,6 @@ venv/
 .venv/
 env/
 ENV/
+
+# AI Artifacts
+learning_plan.md
